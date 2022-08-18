@@ -1,0 +1,28 @@
+header {
+    height: 14vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; 
+}
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+ul li {
+    font-size: 2rem;
+    list-style: none;
+}
+
+header nav ul li {
+    font-weight: bold;
+    transition: all 0.4s ease-in-out;
+}
+
+header nav ul li:hover {
+    color: #048170;
+    cursor: pointer;
+    transform: scale(1.1);
+}

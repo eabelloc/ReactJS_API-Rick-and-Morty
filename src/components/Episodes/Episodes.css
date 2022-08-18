@@ -1,0 +1,14 @@
+.episode_section h2 {
+    text-align: center;
+    margin: 2rem;
+    font-size: 3rem;
+}
+
+.episodes_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 3rem;
+}
